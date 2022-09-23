@@ -141,7 +141,7 @@ believers are responsible if possible.
 
 If other employees (except competent true believers) mess up, help to cover for them.
 
-Give good code reviews to low-skill developers and likely fellow saboteurs. Find small issues in the work of competent true believers and be obviously concerned about them. Try to encourage other developers to review their work of competent true believers in more detail.
+Give good code reviews to low-skill developers and likely fellow saboteurs. Find small issues in the work of competent true believers and be obviously concerned about them. Try to encourage other developers to review the work of competent true believers in more detail.
 
 When interviewing developers for the team, get their info in
 advance and research them from a personal device on public wifi.
