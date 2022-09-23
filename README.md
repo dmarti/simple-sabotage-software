@@ -11,7 +11,7 @@ The original <cite>Simple Sabotage Field Manual</cite> states,
 
 <blockquote>The saboteur may have to reverse his thinking, and he should be told this in so many words. Where he formerly thought of keeping his tools sharp, he should now let them grow dull; surfaces that formerly were lubricated now should be sanded; normally diligent, he should now be lazy and careless; and so on. Once he is encouraged to think backwards about himself and the objects of his everyday life, the saboteur will see many opportunities in his immediate environment which cannot possibly be seen from a distance. A state of mind should be encouraged that anything can be sabotaged.</blockquote>
 
-Today, many of us have experienced dysfunctional software projects. Thinking about what went wrong and cost us time in the past can help slow down or prevent the delivery of evil software projects of the future.
+Today, many of us have experienced dysfunctional software projects. Copying what went wrong and cost us time in the past can help slow down or prevent the delivery of evil software projects of the future.
 
 
 ## Code
@@ -63,15 +63,14 @@ Upgrade a dependency to an imcompatible version because it's needed for security
 
 ## Version control
 
-If you can do it without being detected, introduce so-called "evil merges" -- merge commits that include code changes that were not in either parent commit. This will make issues harder to detect in the future.
+If you can do it without being detected, introduce so-called "evil merges" -- merge commits that include code changes that were not in either parent commit. This will make bisecting to find problem commits harder in the future.
 
 Introduce workflow that requires advanced use of version control.
 
 
 ## Testing
 
-Make code pass a long list of tests but break on real-world data (for
-example, allow emoji in names, but not punctuation marks or accented
+Make code pass a long list of tests but break on real-world data (a simple example: allow emoji in usernames, but not punctuation marks or accented
 letters)
 
 Make tests depend on complicated harnesses and implementation details.
@@ -109,6 +108,8 @@ get close to a subject that will cause someone else to derail it,
 and talk with that person in advance to prime them to think about their issue before the meeting.
 
 Make decision makers "optional" attendees so that the meaning will be pointless. 
+
+If a key person cannot attend a meeting, hold it anyway.
 
 Send a slide presentation with background information before a
 meeting so that you look well-prepared.  Omit a small interesting fact
