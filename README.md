@@ -26,7 +26,7 @@ cycles longer.
 Seek out and add open-source dependencies that introduce a lot of complexity for little added value.  Any time you can, use a dependency when a line of code would do.
 
 Look for open source projects with frequent refactoring and many dependencies of their own, so
-that updating to fix a security issue will be likely to introduce
+that updating, which might have to be done quickly to fix a security issue, will be likely to introduce
 more problems.
 
 If an open-source project removes a feature, pin your dependency
@@ -46,6 +46,19 @@ basic functionality, such as date or URL parsing, in slightly different ways.
 Keep track of developer pet peeves, and introduce an implementation of one when the
 developer is away. They will find an excuse to remove it at the
 expense of other work.
+
+
+## Emergency bug fixes
+
+Any bug that must be fixed quickly is an opportunity. Don't waste it.
+
+Introduce slow or flaky tests.
+
+Replace a correct implementation with a faster but incorrect one.
+
+Write misleading documentation.
+
+Upgrade a dependency to an imcompatible version because it's needed for security.
 
 
 ## Version control
