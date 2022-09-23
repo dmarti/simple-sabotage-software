@@ -1,3 +1,10 @@
+# Simple Sabotage for Software
+
+The OSS <cite>Simple Sabotage Field Manual</cite> is a classic. The advice on organizational matters is still as relevant as ever, but the office technology described is that of the mid-20th centrury.
+
+This document is an attempt to come up with an updated chapter for software development projects. It is starting with an emphasis on open source and Git, but suggested enhancements for other environments are welcome.
+
+
 ## Attitude
 
 The original <cite>Simple Sabotage Field Manual</cite> states,
