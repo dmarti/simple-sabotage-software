@@ -164,3 +164,5 @@ The object is to get the highest possible score with the least work.
 https://en.wikisource.org/wiki/Simple_Sabotage_Field_Manual
 
 https://gist.github.com/kennwhite/467529962c184258d08f16daec83d5da
+
+https://www.armyupress.army.mil/Journals/NCO-Journal/Archives/2022/October/How-to-Conduct-a-Dysfunctional-Meeting-for-Dummies/
